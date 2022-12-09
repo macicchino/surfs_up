@@ -43,10 +43,27 @@ Comparing June and December:
 
 ## 3. Summary
 
+Additional Queries for Analysis:
 
+  1. I ran a .plot display for the June temperatures to further understand the data and it's patterns. 
+  
+  ![dev_3](images/June_plot.png "June Plot")
+  
+  2. I ran a .plot display for the December temperatures to further understand the data and it's patterns. 
+  
+  ![dev_3](images/Dec_plot.png "December Plot")
+        
+        june_lows = session.query(Measurement.date, Measurement.tobs).filter(extract('month',Measurement.date)==6)
+        
+        june_lows = [t.tobs for t in june_lows]
 
-Two Additional Queries for Analysis:
+        june_close = []
 
+        for low in june_temps:
+          if low <= 70:
+            june_close.append(low)
+
+        len(june_close
 
 
 
