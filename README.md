@@ -67,7 +67,7 @@ The code below was replicated for December to identify the amount of days with 7
           if low <= 70:
             june_close.append(low)
 
-        len(june_close
+        len(june_close)
 
 FOr the given data set, during the month of June, there are 171 days that fall under 71 degrees. To compare, there is 630 days in December that fall under 71 degrees. That is three times as many 'off days' for the business. Perhaps the business could entice more customers with coupons or promotions on these 'off days'. 
 
