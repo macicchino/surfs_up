@@ -37,10 +37,21 @@ Comparing June and December:
   1. The average temperature shows a small difference of 4 degrees (75 and 71) between June and December. 
   2. The Maximum temperature shows a small difference is 2 degrees (85 and 83) between June and December.
   3. The Minimum temperature shows a larger difference is 8 degrees (64 and 54) between June and December.
-      - The 54 degree fahrenheit low in December would be too cold for icecream!
+      - The 54 degree fahrenheit low in December could be too cold for surfing and ice cream!
   4. The Standard Deviation for June is 3.26 and for December is 3.75. So December temperatures have slightly more variablility, which is touch for business planning. 
 
 
 ## 3. Summary
+
+
+
+Two Additional Queries for Analysis:
+
+
+
+
+
+
+
 
 
