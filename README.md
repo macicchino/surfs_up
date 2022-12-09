@@ -52,6 +52,10 @@ Additional Queries for Analysis:
   2. I ran a .plot display for the December temperatures to further understand the data and it's patterns. 
   
   ![dev_3](images/Dec_plot.png "December Plot")
+  
+  3. Inorder to identify the most problematic days for the ice cream and surf business. I once again ran a query to pull june data. I then iterated through the list to filter out any days with a temperature equal or less than 70 degrees. This will serve as a better estimate of when people will be less likely to participate i 'Hot' day activites. 
+  
+The code below was replicated for December to identify the amount of days with 70 degrees or less. 
         
         june_lows = session.query(Measurement.date, Measurement.tobs).filter(extract('month',Measurement.date)==6)
         
@@ -64,6 +68,8 @@ Additional Queries for Analysis:
             june_close.append(low)
 
         len(june_close
+
+FOr the given data set, during the month of June, there are 171 days that fall under 71 degrees. To compare, there is 630 days in December that fall under 71 degrees. That is three times as many 'off days' for the business. Perhaps the business could entice more customers with coupons or promotions on these 'off days'. 
 
 
 
