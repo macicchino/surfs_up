@@ -6,13 +6,13 @@
 
 Deliverable 1 Dataframe.
 
-![dev_1](Images/June_temps.png "June Image")
+![dev_1](images/June_temps.png "June Image")
 
 ### 2. Create Customer Travel Destinations Map
 
 Deliverable 2 Dataframe. 
 
-![dev_2.1](Images/December_temps.png "December Image")
+![dev_2](images/December_temps.png "December Image")
 
 
 ## Summary and Thoughts
